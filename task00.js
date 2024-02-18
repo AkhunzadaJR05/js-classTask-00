@@ -63,31 +63,31 @@
 
 
 // Swapping first and last charactters of a string
-let str1 = prompt("Enter a string: ");
-let character = "";
-let character2 = "";
-let str2 = str1;
+// let str1 = prompt("Enter a string: ");
+// let character = "";
+// let character2 = "";
+// let str2 = str1;
 
-let count = str1.length;
+// let count = str1.length;
 
-for (let i = 0; i < count; i++) {
-    if (i === 0) {
-        character = str1.charAt(0);
-        console.log(character);
-    }
-    if (i === str1.length-1) {
-        character2 = str1.charAt(count-1)
-        console.log(character2);
-    }
-}
+// for (let i = 0; i < count; i++) {
+//     if (i === 0) {
+//         character = str1.charAt(0);
+//         console.log(character);
+//     }
+//     if (i === str1.length-1) {
+//         character2 = str1.charAt(count-1)
+//         console.log(character2);
+//     }
+// }
 
-for (let i = 0; i < count; i++) {
-    if (i === 0) {
-        str2 = character2 + str2.slice(1);
-    }
-    if (i === str1.length-1) {
-        str2 = str2.slice(0, count-1) + character;
-    }
-}
+// for (let i = 0; i < count; i++) {
+//     if (i === 0) {
+//         str2 = character2 + str2.slice(1);
+//     }
+//     if (i === str1.length-1) {
+//         str2 = str2.slice(0, count-1) + character;
+//     }
+// }
 
-console.log(str2);
+// console.log(str2);
